@@ -639,6 +639,8 @@ class DPCode(StrEnum):
     CH2O_VALUE = "ch2o_value"
     CH4_SENSOR_STATE = "ch4_sensor_state"
     CH4_SENSOR_VALUE = "ch4_sensor_value"
+    CHARGE_CUR_SET = "charge_cur_set"
+    CHARGE_ENERGY_ONCE = "charge_energy_once"  # Energy of the current charging session
     CHARGE_STATE = "charge_state"
     CHILD_LOCK = "child_lock"  # Child lock
     CISTERN = "cistern"
@@ -856,6 +858,7 @@ class DPCode(StrEnum):
     SENSOR_TEMPERATURE = "sensor_temperature"
     SHAKE = "shake"  # Oscillating
     SHOCK_STATE = "shock_state"  # Vibration status
+    SIGLE_PHASE_POWER = "sigle_phase_power"  # Single-phase power (Tuya's spelling)
     SIREN_SWITCH = "siren_switch"
     SITUATION_SET = "situation_set"
     SLEEP = "sleep"  # Sleep function
